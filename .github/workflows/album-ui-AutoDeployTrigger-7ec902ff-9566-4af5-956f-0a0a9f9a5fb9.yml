@@ -37,7 +37,7 @@ jobs:
           push: true
           tags: acaalbumsapwestgarth.azurecr.io/album-ui:${{ github.sha }}
           file: ./src/Dockerfile
-          context: ./
+          context: ./src/
 
 
   deploy:
