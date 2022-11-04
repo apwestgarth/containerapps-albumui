@@ -7,7 +7,7 @@ on:
     branches: 
       [ main ]
     paths:
-    - './Dockerfile/**'
+    - './src/Dockerfile/**'
     - '.github/workflows/album-ui-AutoDeployTrigger-7ec902ff-9566-4af5-956f-0a0a9f9a5fb9.yml'
 
   # Allow mannually trigger 
